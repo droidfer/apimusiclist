@@ -5,7 +5,8 @@ The Genres are saved in the H2 DB at the boot of the app
 The values saved are in a String Array at ApilistmusicApplication.java
 The genres can be changed at the initialization changing this file or directly on the H2 db
 
-To test the application with CURL:
+To test the application with CURL considering server localhost:8080:
+
 LIST GENRES
 curl -X GET "http://localhost:8080/listgenre"
 
